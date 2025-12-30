@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+dist/
+.venv/
+venv/
+ENV/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Experiments/artifacts
+experiments/**/*
+models/**/*
+docs/videos/**/*
+docs/figures/**/*
+
+# Keep placeholder files
+!experiments/.gitkeep
+!models/.gitkeep
+!docs/videos/.gitkeep
+!docs/figures/.gitkeep
+
+# Logs
+*.log
+
+# Videos
+*.mp4
+*.avi
+*.gif
+
+# Torch checkpoints
+*.pth
+*.pt
