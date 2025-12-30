@@ -1,8 +1,6 @@
-# Pong DQN (and friends): Deep Q-Learning on Atari Pong
+# Deep Q-Learning on Atari Pong
 
-Train an RL agent to play **Atari Pong** using **Deep Q-Networks (DQN)**, plus **Double DQN**, and optional **difficulty scaling** (difficulty 2 and 3). Built on **Gymnasium + ALE** and a classic CNN Atari-style architecture.
-
-This repo is structured like an actual project: runnable scripts, reusable modules, logs/artifacts separation, and a report you can extend without turning your notebook into a landfill.
+Training an RL agent to play **Atari Pong** using **Deep Q-Networks (DQN)**, plus **Double DQN**, and optional **difficulty scaling** (difficulty 2 and 3). Built on **Gymnasium + ALE** and a classic CNN Atari-style architecture.
 
 ---
 
