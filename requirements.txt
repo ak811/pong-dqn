@@ -1,0 +1,13 @@
+# Core
+numpy>=1.24
+torch>=2.1
+gymnasium[atari]>=0.29
+ale-py>=0.8
+
+# Video + preprocessing + plotting
+opencv-python>=4.8
+moviepy>=1.0.3
+matplotlib>=3.7
+
+# Dev/test (optional but useful)
+pytest>=7.4
