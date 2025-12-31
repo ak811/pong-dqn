@@ -256,9 +256,7 @@ GitHub renders videos inconsistently; link directly:
 **Video demo**
 - `docs/videos/diff2_best_video_episode_785.mp4`
 
-<video src="https://github.com/user-attachments/assets/037eb378-0cc8-43ea-8b7c-74b811cd6a05" controls width="600">
-  Your browser does not support the video tag.
-</video
+[Watch Difficulty 2](docs/videos/diff2_best_video_episode_785.mp4)
 
 ---
 
@@ -275,9 +273,7 @@ GitHub renders videos inconsistently; link directly:
 **Video demo**
 - `docs/videos/diff3_best_video_episode_755.mp4`
 
-<video src="https://github.com/user-attachments/assets/d83f043c-c2be-4e5d-b291-659777074df4" controls width="600">
-  Your browser does not support the video tag.
-</video
+[Watch Difficulty 3](docs/videos/diff3_best_video_episode_755.mp4)
 
 ---
 
