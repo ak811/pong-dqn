@@ -256,7 +256,7 @@ GitHub renders videos inconsistently; link directly:
 **Video demo**
 - `docs/videos/diff2_best_video_episode_785.mp4`
 
-[Watch Difficulty 2](docs/videos/diff2_best_video_episode_785.mp4)
+[Download Difficulty 2 Video](docs/videos/diff2_best_video_episode_785.mp4)
 
 ---
 
@@ -273,7 +273,7 @@ GitHub renders videos inconsistently; link directly:
 **Video demo**
 - `docs/videos/diff3_best_video_episode_755.mp4`
 
-[Watch Difficulty 3](docs/videos/diff3_best_video_episode_755.mp4)
+[Download Difficulty 3 Video](docs/videos/diff3_best_video_episode_755.mp4)
 
 ---
 
