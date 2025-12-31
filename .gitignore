@@ -19,12 +19,6 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Experiments/artifacts
-experiments/**/*
-models/**/*
-docs/videos/**/*
-docs/figures/**/*
-
 # Keep placeholder files
 !experiments/.gitkeep
 !models/.gitkeep
@@ -33,12 +27,3 @@ docs/figures/**/*
 
 # Logs
 *.log
-
-# Videos
-*.mp4
-*.avi
-*.gif
-
-# Torch checkpoints
-*.pth
-*.pt
