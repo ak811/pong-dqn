@@ -2,6 +2,10 @@
 
 Training an RL agent to play **Atari Pong** using **Deep Q-Networks (DQN)**, plus **Double DQN**, and optional **difficulty scaling** (difficulty 2 and 3). Built on **Gymnasium + ALE** and a classic CNN Atari-style architecture.
 
+<video src="https://github.com/user-attachments/assets/5df7173a-39dc-46ee-9927-d2ffbcd1bd67" controls width="600">
+  Your browser does not support the video tag.
+</video>
+
 ---
 
 ## Contents
@@ -211,6 +215,10 @@ The progression focused on:
 GitHub renders videos inconsistently; link directly:
 
 - `docs/videos/video.mp4`
+  
+<video src="https://github.com/user-attachments/assets/5df7173a-39dc-46ee-9927-d2ffbcd1bd67" controls width="600">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -226,6 +234,10 @@ GitHub renders videos inconsistently; link directly:
 
 #### Video demo (Double DQN best episode)
 - `docs/videos/video_double_dqn_episode_1271.mp4`
+
+<video src="https://github.com/user-attachments/assets/7dc1cb07-8b47-4955-ae4a-477b648944a8" controls width="600">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -244,6 +256,10 @@ GitHub renders videos inconsistently; link directly:
 **Video demo**
 - `docs/videos/diff2_best_video_episode_785.mp4`
 
+<video src="https://github.com/user-attachments/assets/037eb378-0cc8-43ea-8b7c-74b811cd6a05" controls width="600">
+  Your browser does not support the video tag.
+</video
+
 ---
 
 #### Difficulty 3
@@ -258,6 +274,10 @@ GitHub renders videos inconsistently; link directly:
 
 **Video demo**
 - `docs/videos/diff3_best_video_episode_755.mp4`
+
+<video src="https://github.com/user-attachments/assets/d83f043c-c2be-4e5d-b291-659777074df4" controls width="600">
+  Your browser does not support the video tag.
+</video
 
 ---
 
