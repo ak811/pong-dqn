@@ -1,8 +1,6 @@
-# Pong DQN (and friends): Deep Q-Learning on Atari Pong
+# Deep Q-Learning on Atari Pong
 
-Train an RL agent to play **Atari Pong** using **Deep Q-Networks (DQN)**, plus **Double DQN**, and optional **difficulty scaling** (difficulty 2 and 3). Built on **Gymnasium + ALE** and a classic CNN Atari-style architecture.
-
-This repo is structured like an actual project: runnable scripts, reusable modules, logs/artifacts separation, and a report you can extend without turning your notebook into a landfill.
+Training an RL agent to play **Atari Pong** using **Deep Q-Networks (DQN)**, plus **Double DQN**, and optional **difficulty scaling** (difficulty 2 and 3). Built on **Gymnasium + ALE** and a classic CNN Atari-style architecture.
 
 ---
 
@@ -78,10 +76,7 @@ pong-dqn/
 ### 1) Create and activate a virtual environment
 ```bash
 python -m venv .venv
-# mac/linux
 source .venv/bin/activate
-# windows (powershell)
-.venv\Scripts\Activate.ps1
 ```
 
 ### 2) Install dependencies
@@ -135,18 +130,6 @@ to reduce overestimation bias.
 ---
 
 ## Experiments and results
-
-This section mirrors the project report content and tracks the full experiment set.
-
-> **Important:** This repo’s `.gitignore` excludes heavy binaries by default (plots/videos/models).  
-> To fully render this README with visuals, place the images/videos below in:
->
-> - `docs/figures/`
-> - `docs/videos/`
->
-> The filenames referenced here are the expected ones.
-
----
 
 ### Baseline DQN experiments (1–5)
 
@@ -373,10 +356,9 @@ Put these in the repo if you want the visuals embedded and linked:
 
 - Training Atari Pong from scratch can take a long time without a GPU.
 - If you hit weird ALE parameter behavior (e.g., `difficulty` not accepted), check your Gymnasium/ALE versions.
-- This repo uses a flat `src/` layout (not a Python package). Scripts add `src/` to `PYTHONPATH` at runtime.
 
 ---
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT (See `LICENSE`).
