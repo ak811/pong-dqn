@@ -21,8 +21,6 @@ Training an RL agent to play **Atari Pong** using **Deep Q-Networks (DQN)**, plu
 - [Run training](#run-training)
 - [Evaluate a saved model](#evaluate-a-saved-model)
 - [Hyperparameter sweeps](#hyperparameter-sweeps)
-- [Artifacts, videos, and what gets committed](#artifacts-videos-and-what-gets-committed)
-- [Notes](#notes)
 - [License](#license)
 
 ---
@@ -329,49 +327,6 @@ This will generate experiment folders like:
 - `experiments/sweep/dqn_g0.99_lr0.0001_decay300000/`
 - `experiments/sweep/double_dqn_g0.99_lr0.0001_decay200000/`
 …and so on.
-
----
-
-## Artifacts, videos, and what gets committed
-
-By default, `.gitignore` excludes:
-- checkpoints (`*.pth`)
-- videos (`*.mp4`, `*.avi`)
-- plots (`docs/figures/*`)
-- run outputs (`experiments/*`)
-
-### Recommended practice
-- Keep run artifacts locally in `experiments/`
-- Keep best model checkpoints locally in `models/` (or `experiments/<run>/best.pth`)
-- If you want them in GitHub:
-  - use **Git LFS** for videos/models, **or**
-  - upload artifacts to **GitHub Releases** and link them in this README
-
-### Expected filenames for README visuals
-Put these in the repo if you want the visuals embedded and linked:
-
-**Figures (in `docs/figures/`):**
-- `exp1.png`
-- `exp2.png`
-- `exp3.png`
-- `exp4.png`
-- `exp5.png`
-- `plots_double_dqn.png`
-- `diff2.png`
-- `diff3.png`
-
-**Videos (in `docs/videos/`):**
-- `video.mp4`
-- `video_double_dqn_episode_1271.mp4`
-- `diff2_best_video_episode_785.mp4`
-- `diff3_best_video_episode_755.mp4`
-
----
-
-## Notes
-
-- Training Atari Pong from scratch can take a long time without a GPU.
-- If you hit weird ALE parameter behavior (e.g., `difficulty` not accepted), check your Gymnasium/ALE versions.
 
 ---
 
